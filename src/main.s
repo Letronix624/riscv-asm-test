@@ -15,7 +15,7 @@ fail: .asciz "Failed to read stdio.\n"
 win_text: .asciz "That's right!\n"
 
 correct_answer:
-        .asciz "19\n"
+        .asciz 21\n"
         .space 1 # one extra byte to make 4 bytes, one double word.
 
 newline: .asciz "\n"
